@@ -1,8 +1,9 @@
-# Updates to the CDH4 version for CDH5
+# Updates to the HDP2.2
 
-Compiled against CDH 5.2.0 HBase 0.98.6 using YARN (MR2) November 2014
+Compiled against HDP2.2
+Version 2.0.2
 
-Version 2.0.1
+Forked from https://github.com/johnc10uk/snapshot-s3-util
 
 Added a copy-from option for export. 
 Default is hdfs://nameservice1/hbase or add own path e.g. for path /opt/hbase on a normal file system "-f file:///opt/hbase"
