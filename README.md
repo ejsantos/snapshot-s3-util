@@ -1,11 +1,11 @@
-# Updates to the HDP2.2
+# Compiled against HDP2.2
 
-Compiled against HDP2.2
 Version 2.0.2
 
 Forked from https://github.com/johnc10uk/snapshot-s3-util
 
 Added a copy-from option for export. 
+
 Default is hdfs://nameservice1/hbase or add own path e.g. for path /opt/hbase on a normal file system "-f file:///opt/hbase"
 
 Added overwrite S3 files option for export and import snapshot
